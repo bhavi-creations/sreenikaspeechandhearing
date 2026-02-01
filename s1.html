@@ -1,0 +1,91 @@
+<style>
+    /* auto slider  */
+    .slider-wrapper {
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .slider-track {
+        display: flex;
+        transition: transform 0.6s ease-in-out;
+    }
+
+    .slide {
+        padding: 10px;
+        box-sizing: border-box;
+    }
+
+    /* Desktop - 3 images */
+    @media (min-width: 992px) {
+        .slide {
+            min-width: 33.3333%;
+        }
+    }
+
+    /* Tablet - 2 images */
+    @media (min-width: 576px) and (max-width: 991px) {
+        .slide {
+            min-width: 50%;
+        }
+    }
+
+    /* Mobile - 1 image */
+    @media (max-width: 575px) {
+        .slide {
+            min-width: 100%;
+        }
+    }
+
+    .slide img {
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+        display: block;
+        border-radius: 8px;
+    }
+</style>
+<!-- images slide  -->
+<div class="slider-wrapper">
+    <div class="slider-track">
+        <div class="slide"><img src="./assets/img/01.jpg"></div>
+        <div class="slide"><img src="./assets/img/02.jpg"></div>
+        <div class="slide"><img src="./assets/img/03.jpg"></div>
+        <div class="slide"><img src="./assets/img/04.jpg"></div>
+        <div class="slide"><img src="./assets/img/05.jpg"></div>
+        <div class="slide"><img src="./assets/img/06.jpg"></div>
+    </div>
+</div>
+
+
+
+
+<script>
+    const track = document.querySelector('.slider-track');
+    const slides = document.querySelectorAll('.slide');
+    let index = 0;
+
+    function getVisibleSlides() {
+        if (window.innerWidth < 576) return 1;
+        if (window.innerWidth < 992) return 2;
+        return 3;
+    }
+
+    function autoSlide() {
+        let visible = getVisibleSlides();
+        index++;
+
+        if (index > slides.length - visible) {
+            index = 0;
+        }
+
+        track.style.transform = `translateX(-${index * (100 / visible)}%)`;
+    }
+
+    setInterval(autoSlide, 2500);
+
+    // Reset position on resize
+    window.addEventListener('resize', () => {
+        index = 0;
+        track.style.transform = `translateX(0%)`;
+    });
+</script>
