@@ -1,116 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sreenika</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@500;600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./assets/css/style.css">
-
-
-</head>
-
-<body>
-
-    <nav class="navbar navbar-expand-lg sticky-top">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">
-                <img src="./assets/img/logo_2.png" alt="Sreenika Logo" style="width: 200px; height: auto;">
-                <!-- <img src="logo_1.png" alt="Sreenika Logo"> -->
-            </a>
-
-            <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarNav">
-                <span class="toggler-icon"></span>
-                <span class="toggler-icon"></span>
-                <span class="toggler-icon"></span>
-            </button>
-
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item"><a class="nav-link" href="s111.html">Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="about.php">About Us</a></li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="about.html" id="serviceDrop" role="button"
-                            data-bs-toggle="dropdown">Services</a>
-                        <ul class="dropdown-menu">
-                            <li class="dropdown-submenu">
-                                <a class="dropdown-item d-flex justify-content-between" href="about.html">Audiology
-                                    Services
-                                    <span>&raquo;</span></a>
-                                <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="#">Pure Tone Audiometry</a></li>
-                                    <li><a class="dropdown-item" href="#">Impedance Audiometry</a></li>
-                                    <li><a class="dropdown-item" href="#">Speech Audiometry</a></li>
-                                    <li><a class="dropdown-item" href="#">Eustachian Tube Function</a></li>
-                                    <li><a class="dropdown-item" href="#">Pediatric Hearing Screening OAE</a></li>
-                                    <li><a class="dropdown-item" href="#">BERA Test</a></li>
-                                    <li><a class="dropdown-item" href="#">Sisi Test</a></li>
-                                    <li><a class="dropdown-item" href="#">Tone Decay Test</a></li>
-                                    <li><a class="dropdown-item" href="#">Digital Hearing Aid </a></li>
-                                    <li><a class="dropdown-item" href="#">Tinnitus Evaluation</a></li>
-                                </ul>
-                            </li>
-                            <li class="dropdown-submenu">
-                                <a class="dropdown-item d-flex justify-content-between" href="about.html">Speech
-                                    Services
-                                    <span>&raquo;</span></a>
-                                <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="#">Speech Assessment</a></li>
-                                    <li><a class="dropdown-item" href="#">Speech Therapy</a></li>
-                                    <li><a class="dropdown-item" href="#">Occupational Therapy</a></li>
-                                    <li><a class="dropdown-item" href="#">ABA Therapy</a></li>
-                                    <li><a class="dropdown-item" href="#">Autism/ADHD</a></li>
-                                    <li><a class="dropdown-item" href="#">Auditory Verhal Therapy</a></li>
-                                    <li><a class="dropdown-item" href="#">Articulation Therapy</a></li>
-                                    <li><a class="dropdown-item" href="#">Stammering/Stuttering</a></li>
-                                    <li><a class="dropdown-item" href="#">Voice Therapy</a></li>
-                                    <li><a class="dropdown-item" href="#">Special Education</a></li>
-                                    <li><a class="dropdown-item" href="#">Neuro-Speech Disorders</a></li>
-                                    <li><a class="dropdown-item" href="#">Learning Disability</a></li>
-                                    <li><a class="dropdown-item" href="#">Group Therapy</a></li>
-
-                                </ul>
-                            </li>
-
-
-
-                            <li class="dropdown-submenu">
-                                <a class="dropdown-item d-flex justify-content-between" href="about.html">Hearing Aids
-                                </a> <span>&raquo;</span></a>
-                                <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="#">Behind The Ear (BTE)</a></li>
-                                    <li><a class="dropdown-item" href="#">Receiver In Canal (RIC)</a></li>
-                                    <li><a class="dropdown-item" href="#">Completely In Canal (CIC)</a></li>
-                                    <li><a class="dropdown-item" href="#">In-The-Canal (ITC) (Instant Fit)</a></li>
-                                    <li><a class="dropdown-item" href="#">Invisible-In-The-Canal (IIC)</a></li>
-                                    <li><a class="dropdown-item" href="#">Rechargeable BTE</a></li>
-                                    <li><a class="dropdown-item" href="#">Rechargeable RIC</a></li>
-                                    <li><a class="dropdown-item" href="#">Rechargeable ITC</a></li>
-                                    <li><a class="dropdown-item" href="#">Rechargeable CIC</a></li>
-                                    <li><a class="dropdown-item" href="#">Ear Moulds/Ear Plugs</a></li>
-                                    <li><a class="dropdown-item" href="#">Hearing Aid Accesssories</a></li>
-                                    <li><a class="dropdown-item" href="#">Hearing aid batteries</a></li>
-                                    <li><a class="dropdown-item" href="#">Hearing aid services & repair</a></li>
-
-                                </ul>
-                            </li>
-
-
-
-                        </ul>
-                    </li>
-                    <li class="nav-item"><a class="nav-link" href="#">Gallery</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Gallery</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Testimonials</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-
+<?php include 'header.php'; ?>
     <!-- <div class="container mt-5 text-center text-white">
         <h1 style="color: var(--sreenika-accent);">Sreenika Speech & Hearing</h1>
         <p>Experience the new animated mobile menu. Resize your browser to test!</p>
@@ -253,7 +142,7 @@
         <div class="container py-lg-5 text-center">
 
             <div class="mb-5 reveal">
-                  <div class="section-tag">Our Services</div>
+                <div class="section-tag">Our Services</div>
                 <!-- <h6 class="text-uppercase fw-bold" style="color: #00d9ff; letter-spacing: 2px;">Our Services</h6> -->
                 <h2 class="display-5 fw-bold" style="color: #002244;">Specialized Care Solutions</h2>
                 <div class="mx-auto mt-3" style="width: 60px; height: 4px; background: #00d9ff; border-radius: 2px;">
@@ -359,7 +248,22 @@
     <!-- portfolio -->
     <section class="rjy-gallery-zone" id="gallery">
         <div class="container">
-                   <div class="section-tag">Gallery</div>
+
+            <div class="mb-5 reveal text-center">
+                <div class="section-tag">Gallery</div>
+
+                <!-- <h2 class="display-5 fw-bold" style="color: #002244;">
+                    What Our Clients Say
+                </h2> -->
+
+                <!-- <div class="mx-auto mt-3" style="width: 60px; height: 4px; background: #00d9ff; border-radius: 2px;">
+                </div> -->
+            </div>
+
+
+
+
+            <!-- <div class="section-tag d-flex justify-content-between">Gallery</div> -->
             <!-- <div class="rjy-slider-header">
                 <span class="rjy-slider-badge">Portfolio</span>
                 <h2 class="rjy-slider-title">Our Steel Works Gallery</h2>
@@ -434,11 +338,27 @@
     <!-- ==================== TESTIMONIALS SECTION ==================== -->
     <section class="rjy-testimonial-arena" id="testimonials">
         <div class="container">
-            <div class="rjy-slider-header">
+
+
+            <div class="mb-5 reveal text-center">
+                <div class="section-tag">Testimonials</div>
+                <h2 class="display-5 fw-bold" style="color: #002244;">What Our Clients Say</h2>
+
+                <!-- <h2 class="display-5 fw-bold" style="color: #002244;">
+                    What Our Clients Say
+                </h2> -->
+
+                <!-- <div class="mx-auto mt-3" style="width: 60px; height: 4px; background: #00d9ff; border-radius: 2px;">
+                </div> -->
+            </div>
+
+
+   
+            <!-- <div class="rjy-slider-header">
                 <span class="rjy-slider-badge">Testimonials</span>
                 <h2 class="rjy-slider-title">What Our Clients Say</h2>
-                <p class="rjy-slider-desc">Trusted by industry leaders and construction professionals</p>
-            </div>
+                <p class="rjy-slider-desc"></p>
+            </div> -->
 
             <div class="rjy-testimonial-container">
                 <div class="row">
@@ -454,15 +374,16 @@
                                     <i class="bi bi-star-fill"></i>
                                 </div>
                                 <p class="rjy-testimonial-text">
-                                    Rajahmundry Steels has been our trusted partner for over 10 years. Their quality and
-                                    reliability are unmatched in the industry.
+                                    With years of dedicated experience, Sreenika Speech and Hearing is a trusted center,
+                                    offering comprehensive speech, hearing, and language therapy services for children
+                                    and adults.
                                 </p>
                                 <div class="rjy-testimonial-author">
                                     <img src="https://i.pravatar.cc/150?img=33" alt="Client 1"
                                         class="rjy-testimonial-avatar">
                                     <div class="rjy-testimonial-info">
                                         <h5>Rajesh Kumar</h5>
-                                        <p>Construction Manager, BuildCo</p>
+                                        <p></p>
                                     </div>
                                 </div>
                             </div>
@@ -481,15 +402,16 @@
                                     <i class="bi bi-star-fill"></i>
                                 </div>
                                 <p class="rjy-testimonial-text">
-                                    Excellent service and timely delivery. The TMT bars we received were of the highest
-                                    quality. Highly recommended for any construction project.
+                                    Sreenika Speech and Hearing provides excellent care with a very professional and
+                                    friendly approach. The therapists are patient, knowledgeable, and truly dedicated to
+                                    improving communication skills in children and adults.
                                 </p>
                                 <div class="rjy-testimonial-author">
                                     <img src="https://i.pravatar.cc/150?img=47" alt="Client 2"
                                         class="rjy-testimonial-avatar">
                                     <div class="rjy-testimonial-info">
                                         <h5>Priya Sharma</h5>
-                                        <p>Architect, Design Studio</p>
+                                        <p></p>
                                     </div>
                                 </div>
                             </div>
@@ -508,15 +430,16 @@
                                     <i class="bi bi-star-fill"></i>
                                 </div>
                                 <p class="rjy-testimonial-text">
-                                    Professional team and competitive pricing. They understand the needs of large-scale
-                                    projects and deliver accordingly. A true industry leader.
+                                    We had a very positive experience at Sreenika Speech and Hearing. The therapy
+                                    sessions are well-planned, supportive, and effective. Highly recommended for anyone
+                                    looking for quality speech and hearing services.
                                 </p>
                                 <div class="rjy-testimonial-author">
                                     <img src="https://i.pravatar.cc/150?img=12" alt="Client 3"
                                         class="rjy-testimonial-avatar">
                                     <div class="rjy-testimonial-info">
                                         <h5>Anil Reddy</h5>
-                                        <p>Project Director, Mega Constructions</p>
+                                        <p></p>
                                     </div>
                                 </div>
                             </div>
@@ -530,11 +453,26 @@
     <!-- ==================== CONTACT SECTION ==================== -->
     <section class="rjy-contact-realm" id="contact">
         <div class="container">
-            <div class="rjy-slider-header">
+
+
+         <div class="mb-5 reveal text-center">
+                <div class="section-tag">Get in Touch</div>
+                <h2 class="display-5 fw-bold" style="color: #002244;">Contact Us Today</h2>
+                <p class="rjy-slider-desc">Let's discuss your steel requirements</p>
+
+                <!-- <h2 class="display-5 fw-bold" style="color: #002244;">
+                    What Our Clients Say
+                </h2> -->
+
+                <!-- <div class="mx-auto mt-3" style="width: 60px; height: 4px; background: #00d9ff; border-radius: 2px;">
+                </div> -->
+            </div>
+
+            <!-- <div class="rjy-slider-header">
                 <span class="rjy-slider-badge">Get in Touch</span>
                 <h2 class="rjy-slider-title">Contact Us Today</h2>
                 <p class="rjy-slider-desc">Let's discuss your steel requirements</p>
-            </div>
+            </div> -->
 
             <div class="row g-4">
                 <div class="col-lg-5">
@@ -570,7 +508,7 @@
                             </div>
                             <div class="rjy-contact-data">
                                 <h5>Email Address</h5>
-                                <p>rajahmundrysteels@gmail.com</p>
+                                <p>srinika@gmail.com</p>
                             </div>
                         </div>
 
@@ -640,182 +578,4 @@
             </div>
         </div>
     </section>
-
-    <!-- ==================== FOOTER SECTION ==================== -->
-    <footer class="rjy-footer-base">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-4 col-md-6 mb-4">
-                    <div class="rjy-footer-widget">
-                        <h4>Rajahmundry Steels</h4>
-                        <p class="rjy-footer-desc">
-                            With over 62+ years of experience, we are a trusted name in the steel industry, providing
-                            high-quality steel products for residential, commercial, and industrial projects.
-                        </p>
-                        <div class="rjy-social-cluster">
-                            <a href="#" class="rjy-social-link"><i class="bi bi-facebook"></i></a>
-                            <a href="#" class="rjy-social-link"><i class="bi bi-twitter"></i></a>
-                            <a href="#" class="rjy-social-link"><i class="bi bi-instagram"></i></a>
-                            <a href="#" class="rjy-social-link"><i class="bi bi-linkedin"></i></a>
-                            <a href="#" class="rjy-social-link"><i class="bi bi-youtube"></i></a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-2 col-md-6 mb-4">
-                    <div class="rjy-footer-widget">
-                        <h4>Quick Links</h4>
-                        <ul class="rjy-footer-links">
-                            <li><a href="#"><i class="bi bi-chevron-right"></i> Home</a></li>
-                            <li><a href="#"><i class="bi bi-chevron-right"></i> About Us</a></li>
-                            <li><a href="#"><i class="bi bi-chevron-right"></i> Products</a></li>
-                            <li><a href="#"><i class="bi bi-chevron-right"></i> Services</a></li>
-                            <li><a href="#"><i class="bi bi-chevron-right"></i> Gallery</a></li>
-                            <li><a href="#"><i class="bi bi-chevron-right"></i> Contact</a></li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-6 mb-4">
-                    <div class="rjy-footer-widget">
-                        <h4>Our Products</h4>
-                        <ul class="rjy-footer-links">
-                            <li><a href="#"><i class="bi bi-chevron-right"></i> TMT Steel Bars</a></li>
-                            <li><a href="#"><i class="bi bi-chevron-right"></i> Structural Steel</a></li>
-                            <li><a href="#"><i class="bi bi-chevron-right"></i> MS Products</a></li>
-                            <li><a href="#"><i class="bi bi-chevron-right"></i> Steel Sheets</a></li>
-                            <li><a href="#"><i class="bi bi-chevron-right"></i> Binding Wire</a></li>
-                            <li><a href="#"><i class="bi bi-chevron-right"></i> Angles & Beams</a></li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-6 mb-4">
-                    <div class="rjy-footer-widget">
-                        <h4>Newsletter</h4>
-                        <p class="rjy-footer-desc">
-                            Subscribe to our newsletter for latest updates and offers.
-                        </p>
-                        <div class="mb-3">
-                            <input type="email" class="rjy-form-input" placeholder="Enter your email">
-                        </div>
-                        <button class="rjy-submit-btn" style="padding: 12px 30px;">
-                            <span>Subscribe</span>
-                        </button>
-                    </div>
-                </div>
-            </div>
-
-            <div class="rjy-footer-bottom">
-                <p class="rjy-copyright-text">
-                    &copy; 2026 <a href="#">Rajahmundry Steels</a>. All Rights Reserved.
-                    | Designed with <i class="bi bi-heart-fill" style="color: var(--steel-secondary);"></i> by Steel
-                    Tech Solutions
-                </p>
-            </div>
-        </div>
-    </footer>
-
-  
-
-
-
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-
-    <!-- count script -->
-    <script>
-        const counters = document.querySelectorAll('.stat-number');
-
-        counters.forEach(counter => {
-            const target = +counter.getAttribute('data-target');
-            let count = 0;
-            const speed = 200; // smaller = faster
-
-            const updateCount = () => {
-                const increment = target / speed;
-
-                if (count < target) {
-                    count += increment;
-                    counter.innerText = Math.ceil(count);
-                    setTimeout(updateCount, 20);
-                } else {
-                    counter.innerText = target;
-                }
-            };
-
-            updateCount();
-        });
-    </script>
-
-
-
-
-
-    <!-- 3 image slide script -->
-    <script>
-        var swiper = new Swiper(".mySwiper", {
-            slidesPerView: 3,
-            spaceBetween: 20,
-            slidesPerGroup: 1,
-            loop: true,
-            grabCursor: true,
-
-            speed: 600,   // 👈 movement speed (ms) – 300 fast, 600 smooth
-
-            autoplay: {
-                delay: 2000,              // next slide start delay
-                disableOnInteraction: false,
-            },
-
-            navigation: {
-                nextEl: ".swiper-button-next",
-                prevEl: ".swiper-button-prev",
-            },
-
-            breakpoints: {
-                0: { slidesPerView: 1 },
-                576: { slidesPerView: 2 },
-                992: { slidesPerView: 3 }
-            }
-        });
-    </script>
-
-
-
-
-    <!-- image slider  -->
-    <script>
-        const track = document.querySelector('.slider-track');
-        const slides = document.querySelectorAll('.slide');
-        let index = 0;
-
-        function getVisibleSlides() {
-            if (window.innerWidth < 576) return 1;
-            if (window.innerWidth < 992) return 2;
-            return 3;
-        }
-
-        function autoSlide() {
-            let visible = getVisibleSlides();
-            index++;
-
-            if (index > slides.length - visible) {
-                index = 0;
-            }
-
-            track.style.transform = `translateX(-${index * (100 / visible)}%)`;
-        }
-
-        setInterval(autoSlide, 2500);
-
-        // Reset position on resize
-        window.addEventListener('resize', () => {
-            index = 0;
-            track.style.transform = `translateX(0%)`;
-        });
-    </script>
-
-</body>
-
-</html>
+<?php include 'footer.php' ;?>
